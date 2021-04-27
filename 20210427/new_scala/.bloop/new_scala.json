@@ -1,0 +1,128 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "new_scala",
+        "directory": "F:\\TestCode\\20210427\\new_scala",
+        "workspaceDir": "F:\\TestCode\\20210427\\new_scala",
+        "sources": [
+            "F:\\TestCode\\20210427\\new_scala\\src\\main\\java",
+            "F:\\TestCode\\20210427\\new_scala\\src\\main\\scala"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "F:\\TestCode\\20210427\\new_scala\\target\\classes"
+        ],
+        "out": "F:\\TestCode\\20210427\\new_scala\\target",
+        "classesDir": "F:\\TestCode\\20210427\\new_scala\\target\\classes",
+        "resources": [
+            
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "0.0.0",
+            "options": [
+                
+            ],
+            "jars": [
+                
+            ],
+            "setup": {
+                "order": "java->scala",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "16",
+                "-source",
+                "16",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "E:\\java",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
